@@ -1,0 +1,248 @@
+@media screen and (max-width: 1400px) {
+    #index_section1{
+        height: 650px;
+    }
+}
+
+
+@media screen and (max-width: 1155px) {
+    #index_section1{
+        
+        background-size:contain;
+        height: 550px;
+        .section1_left{
+            top: 100px;
+        }
+    }
+
+    #index_section7{
+
+        .section7_header{
+            .section7_text{
+                top: 10px;
+
+             
+
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 992px) {
+    #header{
+    background-color: #e9e8e8;
+    .header{
+        padding-top: 35px;
+
+        
+            .header_left{
+
+                .header_left_nav{
+
+                    i{
+                    display: block;
+                }
+                }
+                .fa-solid{
+
+                    display: block;
+                }
+            }
+
+            .header_nav{
+                margin-right: 20px;
+                img{
+                    margin-left: 30px;
+                }
+                ul{
+                    display: none;
+                }
+            }
+
+            .header_right{
+                .search{
+                    display: none;
+                }
+               
+            }
+    
+    }
+    
+   }
+   #index_section1{
+height: 450px;
+    top: 15px;
+    .section1_left{
+        top: 10px;
+        h5{
+            font-size: 16px;
+
+        }
+        h3{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+    }
+   }
+
+#index_section2{
+    .container{
+        flex-wrap: wrap;
+
+        .section2_iconbox{
+            width: 100%;
+            justify-content: start;
+        }
+    }
+}
+#index_section3{
+    flex-direction: column;
+    .section3_left{
+        width: 100%;
+    }
+    .section3_right{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+#index_section5{
+    .section5_header{
+        .section5_text{
+            top: 20%;
+        }
+    }
+}
+
+#index_section7{
+    .section7_header{
+        .section7_text{
+            .div_text{
+        
+                        h5{
+                            font-size: 20px;
+                        }
+                        h4{
+                            font-size: 25px;
+                        }
+                        h3{
+                            font-size: 20px;
+                        }
+        
+                  
+               
+            }
+        }
+    }
+}
+
+#index_section9{
+
+    .index_section9_img{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+}
+    
+@media screen and (max-width: 690px) {
+        #header{
+    background-color: #e9e8e8;
+            .header_left{
+                img{
+                    display: none;
+                }
+                select{
+                    display: none;
+                }
+            }
+
+           .header_nav{
+            margin-right: 10px;
+            img{
+                width: 135px;
+            }
+           }
+        }
+#index_section2{
+    height: 350px;
+    margin-bottom: 200px;
+}
+
+#index_section5{
+    .section5_header{
+        .section5_text{
+           .div_leave{
+            display: none;
+
+           }
+           .div_text{
+             h5{
+            display: none;
+           }
+          
+           p{
+            display: none;
+           }
+        }
+           }
+          
+    }
+}
+
+#index_section7{
+    .section7_header{
+        .section7_text{
+            .div_text{
+        
+                       
+                        h3{
+                            display: none;
+                        }
+                        p{
+                            display: none;
+                        }
+                        .div_leave{
+                            display: none;
+                        }
+        
+                  
+               
+            }
+        }
+    }
+}
+
+#footer{
+    .footer_title{
+        .footer_search{
+            width: 100%;
+        }
+    }
+}
+        
+
+}
+
+@media screen and (max-width: 400px) {
+        #index_section1{
+        
+            height: 250px;
+            .section1_left{
+                h5{
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 20px;
+                }
+            }
+        }
+}
+
